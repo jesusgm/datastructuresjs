@@ -1,0 +1,31 @@
+{
+  "name": "js-data-structures",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --coverage",
+    "test:watch": "npm test -- --watch",
+    "release": "np"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesusgm/js-data-structures.git"
+  },
+  "keywords": [
+    "data structures"
+  ],
+  "author": "Jesús Gándara Martínez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jesusgm/js-data-structures/issues"
+  },
+  "homepage": "https://github.com/jesusgm/js-data-structures#readme",
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "np": "^6.4.0"
+  }
+}
