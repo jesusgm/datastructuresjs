@@ -1,5 +1,5 @@
 {
-  "name": "datastructurejs",
+  "name": "@jesusgm/datastructurejs",
   "version": "0.0.1",
   "description": "Some data sctructures in JavaScript",
   "main": "index.js",
