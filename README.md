@@ -3,7 +3,10 @@
 <!-- [START badges] -->
 
 ![npm](https://img.shields.io/npm/v/@jesusgm/datastructurejs)
-[![Build Status](https://travis-ci.org/jesusgm/js-data-structures.svg?branch=master)](https://travis-ci.org/jesusgm/js-data-structures)
+[![Build Status](https://travis-ci.org/jesusgm/datastructuresjs.svg?branch=master)](https://travis-ci.org/jesusgm/datastructuresjs)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/jesusgm/datastructuresjs)
+![GitHub Release Date](https://img.shields.io/github/release-date/jesusgm/datastructuresjs)
+![NPM](https://img.shields.io/npm/l/@jesusgm/datastructurejs)
 
 <!-- [END badges] -->
 
