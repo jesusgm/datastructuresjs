@@ -1,14 +1,14 @@
-const SimpleLinkedList = require("./index").SimpleLinkedList;
+const {
+    SingleLinkedList,
+    DoubleLinkedList,
+    Queue
+} = require('./index');
 
-const sll = new SimpleLinkedList();
 
-sll.insertAtHead(10);
-sll.insertAtHead(20);
-sll.insertAtHead(30);
-console.log(sll.toString());
-sll.insertAtIndex(2, 40);
-console.log(sll.toString());
-sll.removeHead();
-sll.removeHead();
-sll.removeHead();
-console.log(sll.toString());
+const queue = new Queue();
+
+queue.push(10)
+queue.push(20)
+queue.push(30)
+
+console.log(queue.toString());

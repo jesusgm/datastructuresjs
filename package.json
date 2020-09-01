@@ -1,31 +1,45 @@
 {
-  "name": "@jesusgm/datastructurejs",
-  "version": "0.1.0",
-  "description": "Some data sctructures in JavaScript",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "jest --coverage",
-    "test:watch": "npm test -- --watch",
-    "release": "np"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jesusgm/js-data-structures.git"
-  },
-  "keywords": [
-    "data structures"
-  ],
-  "author": "Jesús Gándara Martínez",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jesusgm/js-data-structures/issues"
-  },
-  "homepage": "https://github.com/jesusgm/js-data-structures#readme",
-  "devDependencies": {
-    "jest": "^26.4.2",
-    "np": "^6.4.0"
-  }
+    "name": "@jesusgm/datastructurejs",
+    "version": "0.1.0",
+    "description": "Some data sctructures in JavaScript",
+    "main": "index.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "develop": "nodemon app.js",
+        "release": "np",
+        "test": "jest --coverage",
+        "test:watch": "npm test -- --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jesusgm/js-data-structures.git"
+    },
+    "keywords": [
+        "data structures"
+    ],
+    "author": "Jesús Gándara Martínez",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/jesusgm/js-data-structures/issues"
+    },
+    "homepage": "https://github.com/jesusgm/js-data-structures#readme",
+    "devDependencies": {
+        "eslint-config-airbnb-base": "^14.2.0",
+        "eslint-plugin-import": "^2.22.0",
+        "jest": "^26.4.2",
+        "jest-cli": "^26.4.2",
+        "np": "^6.4.0"
+    },
+    "jest": {
+        "collectCoverage": true,
+        "coverageReporters": [
+            "json",
+            "html"
+        ]
+    },
+    "dependencies": {
+        "nodemon": "^2.0.4"
+    }
 }
