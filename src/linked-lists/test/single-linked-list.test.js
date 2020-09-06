@@ -1,4 +1,4 @@
-const SingleLinkedList = require("./single-linked-list");
+const SingleLinkedList = require("../single-linked-list");
 
 describe("SingleLinkedList", () => {
   describe("#appendAtHead", () => {

@@ -18,6 +18,7 @@ Package with some data structures implemented in JavaScript for academic purpose
 -   DoubleLinkedList
 -   Stack
 -   Queue
+-   Graph
 
 ## Installation
 
@@ -28,9 +29,9 @@ Install package executing these command:
 ## Usage
 
 ```javascript
-const dsjs = require('@jesusgm/datastructurejs');
+const SimpleLinkedList = require('@jesusgm/datastructurejs').SingleLinkedList;
 
-const ll = new dsjs.SimpleLinkedList();
+const ll = new SimpleLinkedList();
 
 ll.appendHead(1);
 ll.appendHead(2);

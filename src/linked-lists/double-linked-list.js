@@ -1,4 +1,4 @@
-const Node = require('../nodes/double-node');
+const Node = require('./nodes/double-node');
 
 class DoubleLinkedList {
     constructor() {

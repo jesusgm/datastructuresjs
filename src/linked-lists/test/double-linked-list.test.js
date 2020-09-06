@@ -1,4 +1,4 @@
-const DoubleLinkedList = require('./double-linked-list');
+const DoubleLinkedList = require('../double-linked-list');
 
 describe('DoubleLinkedList', () => {
     describe('#insertAtHead', () => {
