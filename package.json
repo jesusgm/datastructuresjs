@@ -1,6 +1,6 @@
 {
     "name": "@jesusgm/datastructurejs",
-    "version": "0.2.1",
+    "version": "0.3.0",
     "description": "Some data sctructures in JavaScript",
     "main": "index.js",
     "directories": {
